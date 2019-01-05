@@ -126,14 +126,14 @@ def sum_even_integers(sequence):
     #     -- An integer X is EVEN if the remainder is 0
     #          when you divide X by 2 and take the remainder.
     # -------------------------------------------------------------------------
-    total = 0
-    for k in range(len(sequence)):
-        item = sequence[k]
-        if type(item) is int:
-            if item % 2 == 0:
-                total = total + item
-
-    return total
+    # total = 0
+    # for k in range(len(sequence)):
+    #     item = sequence[k]
+    #     if type(item) is int:
+    #         if item % 2 == 0:
+    #             total = total + item
+    #
+    # return total
 
     # Here is an alternative (there are other alternatives as well):
     total = 0
